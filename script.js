@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
-
+const main = function () {
   console.log('.0');
   //const visualJSON = JSON.stringify(Object.fromEntries(new URLSearchParams(window.location.search)));
   //document.querySelector('.param').textContent = visualJSON;
@@ -12,4 +11,5 @@ document.addEventListener('DOMContentLoaded', function () {
     window.location.search = `utm_medium=${startParam}`;
     console.log('.1');
   }
-})
+}
+main();
